@@ -83,22 +83,25 @@ public class Qes1_13 {
 		System.out.println("BMIは" + bmi2 + "です");
 		
 		//9
-		int age2 = (age + age);
-		double height2 = (height + height);
-		float weight2 = (weight + weight);
-		double bmi3 = (bmi2 / 2);
+		age += 24;
+		height += 168.5d;
+		weight += 64.2f;
+		bmi2 /= 2;
 		System.out.println("初めまして" + name + "です");
-		System.out.println("年齢は" + age2 + "歳です");
-		System.out.println("身長は" + height2 + "cmです");
-		System.out.println("体重は" + weight2 + "kgです");
+		System.out.println("年齢は" + age + "歳です");
+		System.out.println("身長は" + height + "cmです");
+		System.out.println("体重は" + weight + "kgです");
 		System.out.println("好きな食べ物は" + food + "です");
-		System.out.println("BMIは" + bmi3 + "です");
+		System.out.println("BMIは" + bmi2 + "です");
 		
 		//10
-		boolean result = age > 24;
+		age = 24;
+		boolean result = age >= 25;
         System.out.println(result);
         
         //11
+		height = 168.5d;
+		weight = 64.2f;
         String strage = String.valueOf(age);
         String strheight = String.valueOf(height);
         String strweight = String.valueOf(weight);
