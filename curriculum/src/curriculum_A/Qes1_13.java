@@ -97,25 +97,25 @@ public class Qes1_13 {
 		//10
 		age = 24;
 		boolean result = age >= 25;
-        System.out.println(result);
-        
-        //11
+		System.out.println(result);
+		
+		//11
 		height = 168.5d;
 		weight = 64.2f;
-        String strage = String.valueOf(age);
-        String strheight = String.valueOf(height);
-        String strweight = String.valueOf(weight);
-        System.out.println(strage + strheight + strweight);
-        
-        //12
-        int intage = Integer.parseInt(strage);
-        double doubleheight = Double.parseDouble(strheight);
-        System.out.println(intage);
-        System.out.println(doubleheight);
-        
-        //13
-        boolean result2 = (height >= 160.0d) || (age == 25);
-        System.out.println(result2);
-        
+		String strage = String.valueOf(age);
+		String strheight = String.valueOf(height);
+		String strweight = String.valueOf(weight);
+		System.out.println(strage + strheight + strweight);
+		
+		//12
+		int intage = Integer.parseInt(strage);
+		double doubleheight = Double.parseDouble(strheight);
+		System.out.println(intage);
+		System.out.println(doubleheight);
+		
+		//13
+		boolean result2 = (height >= 160.0d) || (age == 25);
+		System.out.println(result2);
+		
 	}
 }
